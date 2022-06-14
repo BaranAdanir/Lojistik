@@ -22,7 +22,7 @@ namespace Lojistik
 
             textPassedLogin = textBox_kullanici_adi.Text;
 
-            if (textBox_kullanici_adi.Text == "Tufan Özer" && textBox_password.Text == "admin")
+            if (textBox_kullanici_adi.Text == "Admin" && textBox_password.Text == "admin")
             {
                 new main_form().Show();
                 this.Hide();
